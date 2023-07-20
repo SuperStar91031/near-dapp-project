@@ -1,0 +1,91 @@
+body{
+    font-family: '"Russo One", sans-serif';
+}
+
+
+table thead th{
+    font-weight: bold !important;
+}
+
+table tbody th,table tbody td {
+    border-bottom: 8px solid #090a1a !important;
+    cursor: pointer;
+}
+
+.investment-box{
+    font-size: 2.2em;
+    line-height: 125%;
+    background-image: linear-gradient(90deg, #ca4f50, #ff716c 13%, #fa5d84 26%, #ef4daa 40%, #f544fc 54%, #c675fe 69%, #c17efe 85%, #8d47e6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pools-box{
+    margin-top: 0.29em;
+    margin-bottom:  0.51em;
+    font-size:  5.5em;
+    line-height:  120%;
+    font-weight:  600;
+    letter-spacing:  -0.04em;
+}
+
+.pools-card{
+    display: flex;
+        align-items: center;
+        border-radius: 2em !important;
+        padding: 0.5em 1.5em;
+        cursor: pointer;
+}
+.pools-card:hover{
+background-color: #ffffff1f;
+}
+
+@keyframes colorAnimation {
+    0% {
+        color: red;
+    }
+
+    20% {
+        color: yellow;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    60% {
+        color: green;
+    }
+
+    80% {
+        color: red;
+    }
+
+    100% {
+        color: #6D4AFE;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b3a3a3;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c0e7eb;
+}
